@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 网络设置
-RPC_URL = os.getenv("RPC_URL", "https://monad-testnet.g.alchemy.com/v2/dkEUofCC_DkGE0hb1qfcLosQeneQWmLc")
+RPC_URL = os.getenv("RPC_URL", "https://testnet-rpc.monad.xyz/")
 CHAIN_ID = int(os.getenv("CHAIN_ID", "1") or "1")
 
 # MON(原生代币)的包装地址
