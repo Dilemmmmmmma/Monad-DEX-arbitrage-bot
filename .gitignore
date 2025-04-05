@@ -1,0 +1,30 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境变量和敏感信息
+.env
+.env.*
+
+# 日志文件和交易记录
+logs/
+*.log
+transactions.json
+profit_chart.png
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db 
